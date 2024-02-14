@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+}
+
+.app-navbar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.app-right-navbar {
+  width: 100px;
+  background-color: #DD6A6A;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.router-outlet {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 110px;
+  background-color: #E5E5E5; /* Add your desired background color */
+  border-radius: 10px; /* Add your desired border-radius */
+}
+.all{
+  display: flex;
+}

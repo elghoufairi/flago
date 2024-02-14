@@ -1,0 +1,92 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="header-container mb-4">
+                <h2 class="header-text">Todo App</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- To Do Column -->
+            <div class="col-md-4">
+                <div class="card border-primary mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">To Do</h4>
+                        <div class="input-group mb-3">
+                            <input placeholder="Add a new task" class="form-control" />
+                            <input type="date" class="form-control" />
+                            <div class="input-group-append">
+                                <button class="btn btn-success">Add</button>
+                            </div>
+                        </div>
+
+                        <ul class="list-group">
+                            <li class="list-group-item todo-item">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="todo-task"> Task 1</span>
+                                        <span class="text-muted small">Date: </span>
+                                        <span class="text-muted small">2022-02-14</span>
+                                    </div>
+                                    <button class="btn btn-danger btn-sm" data-toggle="tooltip" title="Remove Task">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doing Column -->
+            <div class="col-md-4">
+                <div class="card border-warning mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-warning">Doing</h4>
+
+                        <ul class="list-group">
+                            <li class="list-group-item doing-item">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="todo-task"> Task 2</span>
+                                        <span class="text-muted small">Date: </span>
+                                        <span class="text-muted small">2022-02-15</span>
+                                    </div>
+                                    <button class="btn btn-danger btn-sm" data-toggle="tooltip" title="Remove Task">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Done Column -->
+            <div class="col-md-4">
+                <div class="card border-success mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">Done</h4>
+
+                        <ul class="list-group">
+                            <li class="list-group-item done-item">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="todo-task"> Task 3</span>
+                                        <span class="text-muted small">Date: </span>
+                                        <span class="text-muted small">2022-02-16</span>
+                                        <span class="text-success">You're good!</span>
+                                        <span class="text-danger">Overdue!</span>
+                                    </div>
+                                    <button class="btn btn-danger btn-sm" data-toggle="tooltip" title="Remove Task">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

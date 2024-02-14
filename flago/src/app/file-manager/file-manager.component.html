@@ -1,0 +1,58 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header text-white d-flex justify-content-between align-items-center bg-primary">
+                    <h5 class="mb-0"><i class="fas fa-folder"></i> File Manager</h5>
+                    <div class="mb-2">
+                        <button class="btn btn-success btn-sm mr-2"><i class="fas fa-plus"></i> Add New</button>
+                        <label class="btn btn-primary btn-sm">
+                            <i class="fas fa-upload"></i> Upload<input type="file" style="display: none;">
+                        </label>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <!-- Folders Section -->
+                    <h6>Folders:</h6>
+                    <div class="row">
+                        <!-- Folder Card 1 -->
+                        <div class="col-4 mb-3">
+                            <div class="card folder-card">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="fas fa-folder"></i> Folder 1</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat similar structure for other folders -->
+                    </div>
+
+                    <!-- Files Section -->
+                    <h6 class="mt-4">Files:</h6>
+                    <div class="row">
+                        <!-- File Card 1 -->
+                        <div class="col-4 mb-3">
+                            <div class="card file-card">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="fas fa-file"></i> File 1</h6>
+                                    <p class="card-text">Size: 10 MB</p>
+                                    <p class="card-text">Date: 2024-02-17</p>
+                                    <div class="file-actions">
+                                        <!-- Add any actions here (e.g., download, delete, etc.) -->
+                                        <button class="btn btn-info btn-sm"><i class="fas fa-download"></i>
+                                            Download</button>
+                                        <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat similar structure for other files -->
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="text-center">File manager footer content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

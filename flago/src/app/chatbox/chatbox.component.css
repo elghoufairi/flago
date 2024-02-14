@@ -1,0 +1,63 @@
+/* Add this CSS to your style file or in a style tag within your component */
+body {
+    width: 500px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    background-color: #ffffff;
+    font-family: cursive;
+    border-radius: 15px;
+    width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    background-color: #DD6A6A;
+    text-align: center;
+    border-top-right-radius: 15px;
+}
+
+.card-header h5 {
+    background-color: #DD6A6A; /* Set the background color for the h5 element */
+    color: rgb(0, 0, 0); /* Set the text color for better visibility */
+    padding: 10px; /* Optional: Add padding for better appearance */
+}
+
+.card-footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.chat-container {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.received {
+    background-color: #f2f2f2;
+}
+
+.sent {
+    background-color: #DD6A6A;
+    color: white;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0 15px 15px 0;
+    background-color: #DD6A6A;
+}

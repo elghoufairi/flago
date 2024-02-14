@@ -1,0 +1,42 @@
+
+
+.custom-navbar {
+    width: 160px;
+    margin-right: 10px; /* Add margin to the right (adjust as needed) */
+    background-color: #DD6A6A;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: cursive;
+    color: #000000;
+    transition: background-color 0.3s; 
+  }
+  
+  .custom-navbar:hover {
+    background-color: #C25858; 
+  }
+  
+  .navbar-nav {
+  border-radius: 6px;
+    width: 100%;
+    padding: 6px;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 15px; /* Add padding to the nav links (adjust as needed) */
+    display: block;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+  }
+  
+  .nav-link:hover {
+    background-color: #ffffff; /* Change background color on hover (adjust as needed) */
+    color: #000000; /* Change text color on hover (adjust as needed) */
+    border-radius: 10px;
+  }
+  

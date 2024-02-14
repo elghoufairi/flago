@@ -1,0 +1,92 @@
+
+
+body{
+    background-color: #DD6A6A;
+    font-family: cursive;
+}
+.container {
+    background-color: #DD6A6A;
+    border-radius: 20px;
+}
+
+.card-title{
+    background-color: white;
+}
+/* Header styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust the height as needed */
+}
+.header-text {
+    background-color: white;
+    font-family: cursive;
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+   text-align: center;
+    animation: zoomInOut 2s ease infinite; /* Adjust the animation duration and properties as needed */
+    color: #000000; /* Your preferred color */
+}
+ 
+
+
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+/* Input and button styles */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap success color */
+    border-color: #28a745;
+    font-family: cursive;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker shade on hover */
+    border-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker shade on hover */
+    border-color: #c82333;
+}
+
+/* List item styles */
+.list-group-item {
+    cursor: pointer;
+    font-family: cursive;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; /* Bootstrap light color */
+    font-family: cursive;
+}
+
+/* Trash icon styles */
+.fa-trash {
+    color: #fff; /* White icon color */
+}

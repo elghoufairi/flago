@@ -1,0 +1,26 @@
+.navbar {
+  font-family: cursive;
+    padding: 5px;
+    margin: 5px;
+    background-color: #DD6A6A;
+    border-radius: 10px;
+  }
+  .h3Flago{
+    background-color: #ffffff;
+    color: #000000;
+    width: 600px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  
+  .navbar-brand {
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the text */
+  }
+  
